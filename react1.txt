@@ -1,0 +1,53 @@
+react1 
+
+import React,{Component} from 'react'
+
+class Eb extends Component{
+    render (){
+        return (<h1>Hi i'm Elaiya Bharathi</h1>)
+    }
+}
+export default Eb;
+
+
+
+react 2
+
+import React, { Component } from 'react';
+
+class Reb extends Component{
+    render(){
+        
+            const mystyle = {
+              color: "black",
+              fontFamily: "aerial"
+            };
+        return(
+        <div>
+        <h1 style={mystyle}>I'm Arun kumar</h1>
+        </div>
+        );
+    }
+}
+export default Reb;
+
+
+react 3
+
+
+import React from 'react';
+
+const Arun=function Eb(){
+    
+        
+        const mystyle = {
+          color: "grey",
+          
+          
+          fontFamil:"Aerial"
+          
+        };
+    return <h1 style={mystyle}>Goood Evening</h1>
+    
+}
+export default Arun
