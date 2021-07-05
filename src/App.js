@@ -22,6 +22,12 @@ import DataFetching from "./HooksComponent/DataFetching";
 import ComponentX from "./HooksComponent/ComponentX";
 import ComponentY from "./HooksComponent/ComponentY";
 import ComponentZ from "./HooksComponent/ComponentZ";
+import DataFetchingOne from "./reducerhook/DataFetchingOne";
+import DataFetchingTwo from "./reducerhook/DataFetchingTwo";
+import CallBackComponent from "./useCallbackDemo/ParentComponent";
+import RefFocusInput from "./useCallbackDemo/RefFocusInput";
+import ClassTimer from "./useCallbackDemo/ClassTimer";
+
 
 
 
@@ -64,8 +70,14 @@ function App() {
       <ComponentY/>
       <ComponentZ/>
       <ErrorBoundry/>
-      <ProductInformation/>*/}
+      <ProductInformation/>
       <EventBind/>
+      <DataFetchingOne/>
+      <DataFetchingTwo/>
+      <CallBackComponent/>
+      <RefFocusInput/>
+      <ClassTimer/>*/}
+  
   
        
      
