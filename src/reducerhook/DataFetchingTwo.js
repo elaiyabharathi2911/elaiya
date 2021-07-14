@@ -51,4 +51,4 @@ function DataFetchingTwo() {
     </div>
   );
 }
-export default DataFetchingTwo;
+export default DataFetchingTwo;  

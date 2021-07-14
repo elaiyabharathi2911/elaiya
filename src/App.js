@@ -27,6 +27,10 @@ import DataFetchingTwo from "./reducerhook/DataFetchingTwo";
 import CallBackComponent from "./useCallbackDemo/ParentComponent";
 import RefFocusInput from "./useCallbackDemo/RefFocusInput";
 import ClassTimer from "./useCallbackDemo/ClassTimer";
+import Counter from './component/Counter';
+import users from './component/Users';
+import rootReducer from './component/rootReducer';
+
 
 
 
@@ -45,7 +49,7 @@ const bharathi={
 }
 
 function App() {
-  return (
+  return ( 
     <body style={bharathi}>
     <div className="App">
       <h1>ELAIYA BHARATHI</h1>
@@ -76,7 +80,11 @@ function App() {
       <DataFetchingTwo/>
       <CallBackComponent/>
       <RefFocusInput/>
-      <ClassTimer/>*/}
+      <ClassTimer/>
+      <Counter/>
+      <Users/>
+      <rootReducer/>*/}
+
   
   
        
